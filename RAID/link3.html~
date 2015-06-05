@@ -1,0 +1,27 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID 3 </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<center><img src="RAID_3.svg"/></center>
+<h3 align="center">(Byte Level Striping with Dedicated Parity Disk) </h3>
+<style type="text/css">
+h3{
+color:blue;}
+</style>
+<p align="center">
+Un sistema RAID 3 usa una divisione al livello di byte con un disco dedicato alla parita'.
+Il RAID-3 e' estremamente raro nella pratica.
+Uno degli effetti collaterali e' che non può eseguire richieste multiple simultaneamente.
+Questo perche' ogni singolo blocco di dati ha la propria definizione diffusa tra tutti i dischi del RAID e risiedera' nella stessa locazione, cosi' ogni operazione di I/O richiede di usare tutti i dischi.
+</p>
+</body>
+</head>
+</html>
+

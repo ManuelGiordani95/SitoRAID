@@ -1,0 +1,27 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID 1 </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<center><img src="RAID_1.svg"/></center>
+<h3 align="center">(Mirroring) </h3>
+<style type="text/css">
+h3{
+color:blue;}
+</style>
+<p align="center">
+Il sistema RAID 1 crea una copia esatta (mirror) di tutti i dati su due o più dischi.
+E' utile nei casi in cui la ridondanza e' piu' importante che usare tutti i dischi alla loro massima capacita': infatti il sistema puo' avere una capacita' massima pari a quella del disco più piccolo.
+In un sistema ideale, formato da due dischi, l'affidabilita' aumenta di un fattore due rispetto al sistema a disco singolo, ma e' possibile avere piu' di una copia dei dischi.
+Poiche' ogni disco può essere gestito autonomamente nel caso l'altro si guasti, l'affidabilita' aumenta linearmente al numero di dischi presenti.
+RAID-1 aumenta anche le prestazioni in lettura, visto che molte implementazioni possono leggere da un disco mentre l'altro e' occupato.
+</p>
+</body>
+</head>
+</html>

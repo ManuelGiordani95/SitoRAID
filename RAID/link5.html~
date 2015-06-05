@@ -1,0 +1,24 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID 5 </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<center><img src="RAID_5.svg"/></center>
+<h3 align="center">(Distributed Parity) </h3>
+<style type="text/css">
+h3{
+color:blue;}
+</style>
+<p align="center">
+Usa una suddivisione dei dati a livello di blocco, distribuendo i dati di parita' uniformemente tra tutti i dischi che lo compongono.
+</p>
+</body>
+</head>
+</html>
+

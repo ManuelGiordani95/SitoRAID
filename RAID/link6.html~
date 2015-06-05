@@ -1,0 +1,26 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID 6 </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<center><img src="RAID_6.svg"/></center>
+<h3 align="center">(Distributed Double Parity) </h3>
+<style type="text/css">
+h3{
+color:blue;}
+</style>
+<p align="center">
+Un sistema RAID 6 usa una divisione a livello di blocchi con i dati di parita' distribuiti due volte tra tutti i dischi.
+Anche questo non era presente tra i livelli RAID originari.
+Il blocco di parita' viene generato e distribuito tra due stripe di parita', su due dischi separati, usando differenti stripe di parita' nelle due direzioni.
+E' più ridondante del RAID-5, ma e' molto inefficiente quando viene usato in un numero limitato di dischi.
+</p>
+</body>
+</head>
+</html>

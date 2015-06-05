@@ -1,0 +1,49 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<h1 align="center"> RAID </h1>
+<style type="text/css">
+h1{
+font-family:"Comic-sans";
+color:red}
+</style>
+<center><img src="RAID.jpg"/></center>
+<p align="center">
+Acronimo di Redundant Array of Independent Disks, insieme ridondante di dischi indipendenti, e' una tecnica di raggruppamento di diversi dischi rigidi collegati ad un computer che li rende utilizzabili, dalle applicazioni e dall'utente, come se fosse un unico volume di memorizzazione.
+Tale aggregazione sfrutta, con modalita' differenti a seconda del tipo di implementazione, i principi di ridondanza dei dati e di parallelismo nel loro accesso per garantire, rispetto ad un disco singolo, incrementi di prestazioni, aumenti nella capacita' di memorizzazione disponibile, miglioramenti nella tolleranza ai guasti.
+I tipi di RAID sono:
+<center><ul>
+<li><a href="link0.html">RAID 0</a></li>
+<li><a href="link1.html">RAID 1</a></li>
+<li><a href="link3.html">RAID 3</a></li>
+<li><a href="link4.html">RAID 4</a></li>
+<li><a href="link5.html">RAID 5</a></li>
+<li><a href="link6.html">RAID 6</a></li>
+</ul></center>
+</body>
+</head>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

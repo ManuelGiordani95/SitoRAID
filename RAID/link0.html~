@@ -1,0 +1,30 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID 0 </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<center><img src="RAID_0.svg"/></center>
+<h3 align="center">(Striping) </h3>
+<style type="text/css">
+h3{
+color:blue;}
+</style>
+<p align="center">
+Il sistema divide i dati equamente tra due o piu' dischi con nessuna informazione di parita' o ridondanza (operazione detta di striping).
+Bisogna notare che il RAID-0 non era presente tra i livelli RAID originari, e che non e' ridondante.
+RAID-0 e' usato generalmente per aumentare le prestazioni di un sistema, anche se e' molto utile per creare un piccolo numero di grandi dischi virtuali da un grande numero di piccoli dischi fisici.
+Sebbene non sia indicato tra i livelli RAID originari, in un sistema ideale di tipo RAID-0 le operazioni di I/O si dividerebbero in blocchi di dimensioni uguali e si applicherebbero equamente su tutti i dischi.
+Le implementazioni di sistemi RAID-0 su piu' di due dischi sono possibili, ma l'affidabilita' di un dato sistema RAID-0 e' uguale all'affidabilita' media dei dischi diviso per il numero di dischi presenti. Quindi l'affidabilita', misurata come tempo medio tra due guasti (MTBF), e' inversamente proporzionale al numero degli elementi; cioe' un sistema di due dischi e' affidabile la meta' di un disco solo.
+La ragione per la quale questo succede e' che il file system e' diviso tra tutti i dischi.
+Quando un drive si guasta, il file system non puo' gestire una perdita di dati così grande visto che i dati sono divisi tra tutti i dischi.
+I dati possono essere spesso recuperati con qualche strumento, anche se saranno sicuramente incompleti e danneggiati.
+</p>
+</body>
+</head>
+</html>

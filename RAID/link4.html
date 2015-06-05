@@ -1,0 +1,27 @@
+<DOCTYPE!>
+<html>
+<head>
+<title> RAID 4 </title>
+<body>
+<style type="text/css">
+body{
+background:white;
+color:black;
+font-family:"Trebuchet", sans-serif;}
+</style>
+<center><img src="RAID_4.svg"/></center>
+<h3 align="center">(Block Level Striping with Dedicated Parity Disk) </h3>
+<style type="text/css">
+h3{
+color:blue;}
+</style>
+<p align="center">
+Il sistema RAID 4 usa una divisione a livello di blocchi con un disco dedicato alla parita'.
+Assomiglia molto al RAID-3 con l'eccezione che divide i dati al livello di blocchi invece che al livello di byte.
+Questo permette ad ogni disco appartenente al sistema di operare in maniera indipendente quando e' richiesto un singolo blocco.
+Se il controllore del disco lo permette, un sistema RAID-4 puo' servire diverse richieste di lettura contemporaneamente.
+In lettura la capacita' di trasferimento e' paragonabile al RAID 0, la scrittura e' penalizzata(read-modify-write).
+</p>
+</body>
+</head>
+</html>
